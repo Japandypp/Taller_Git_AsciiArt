@@ -24,8 +24,8 @@ def main():
 
     print("Hola", nombre, "el sistema te da la Bienvenida!!")
     
-    # Aquí agregamos el ASCII art
-    ascii_art = r"""
+    # Primer ASCII art
+    ascii_art1 = r"""
           .  .
           |\_|\
           | a_a\
@@ -49,7 +49,23 @@ def main():
 snd    / |   |____)
        |_/ 
 """
-    print(ascii_art)
+    print(ascii_art1)
+
+    # Segundo ASCII art
+    ascii_art2 = r"""
+          _,     _   _     ,_
+      .-'` /     \'-'/     \ `'-.
+     /    |      |   |      |    \
+    ;      \_  _/     \_  _/      ;
+   |         ``         ``         |
+   |                               |
+    ;    .-.   .-.   .-.   .-.    ;
+jgs  \  (   '.'   \ /   '.'   )  /
+      '-.;         V         ;.-'
+          `                 `
+"""
+    print(ascii_art2)
+
 
 if __name__ == "__main__":
     main()
